@@ -1,0 +1,11 @@
+server:
+  port: 8201
+spring:
+  application:
+    name: user-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true   #开启检索服务的能力
+    service-url:
+      defaultZone: http://beibeiyun:123456@replicasecurity:8004/eureka/
