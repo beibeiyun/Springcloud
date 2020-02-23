@@ -1,0 +1,17 @@
+server:
+  port: 8301
+spring:
+  application:
+    name: ribbon-service
+eureka:
+#  instance:
+    #hostname: ribbonservice
+   # prefer-ip-address: true
+    #ip-address: 192.168.86.1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://beibeiyun:123456@replicasecurity:8004/eureka/, http://replica2:8003/eureka/,http://local:8001/eureka/
+service-url:
+  user-service: http://user-service

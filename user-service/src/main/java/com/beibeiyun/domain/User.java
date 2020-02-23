@@ -1,5 +1,8 @@
 package com.beibeiyun.domain;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 public class User {
     private Long id;
     private String username;

@@ -3,9 +3,18 @@ server:
 spring:
   application:
     name: user-service
+  #datasource:
+   # url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncodingutf-8
+   # username: root
+   # password: root
+  freemarker:
+    prefer-file-system-access: false
 eureka:
+ # instance:
+  #  prefer-ip-address: true
+  #  ip-address: 192.168.86.1
   client:
     register-with-eureka: true
     fetch-registry: true   #开启检索服务的能力
     service-url:
-      defaultZone: http://beibeiyun:123456@replicasecurity:8004/eureka/
+      defaultZone: http://beibeiyun:123456@replicasecurity:8004/eureka/, http://replica2:8003/eureka/,http://local:8001/eureka/

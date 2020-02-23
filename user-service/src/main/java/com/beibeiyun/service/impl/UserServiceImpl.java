@@ -2,13 +2,16 @@ package com.beibeiyun.service.impl;
 
 import com.beibeiyun.domain.User;
 import com.beibeiyun.service.UserService;
+
+
+import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
+@Service
 public class UserServiceImpl implements UserService {
 
     private List<User> userList;
