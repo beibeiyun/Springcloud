@@ -1,5 +1,6 @@
 package com.beibeiyun.service;
 
+import com.beibeiyun.domain.CommonResult;
 import com.beibeiyun.domain.User;
 
 import java.util.List;
@@ -16,4 +17,6 @@ public interface UserService {
     User getByUsername(String username);
 
     List<User> getUserByIds(List<Long> ids);
+
+
 }

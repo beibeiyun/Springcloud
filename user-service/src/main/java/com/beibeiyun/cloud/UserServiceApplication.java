@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-
 @ComponentScan(basePackages =  "com.beibeiyun")
 public class UserServiceApplication {
 

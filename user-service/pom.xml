@@ -65,6 +65,17 @@
             <version>20.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-javanica</artifactId>
+            <version>1.5.18</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-core</artifactId>
+            <version>1.19.1</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
