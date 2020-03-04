@@ -16,6 +16,13 @@ management:
     web:
       exposure:
         include: 'hystrix.stream' #暴露hystrix监控端点
+hystrix:
+  command: #用于控制HystrixCommand的行为
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1000 #配置HystrixCommand执行的超时时间，执行超过该时间会进行服务降级处理
 # http://localhost:8401/user/testCommand/1
 # http://localhost:8402/user/testCommand/1  http://localhost:8501/hystrix
 
