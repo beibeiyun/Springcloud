@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5904c8f-4cfd-46cc-94a7-3aff27ce4161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/Filter/PreLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-proxy/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/beibeiyun/springcloud/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/com/beibeiyun/springcloud/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/cloud/ZuulProxyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-proxy/src/test/java/com/beibeiyun/cloud/ZuulProxyApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -22,11 +41,26 @@
     <ignored path="$PROJECT_DIR$/turbine-service/target/" />
     <ignored path="$PROJECT_DIR$/feign-service/target/" />
     <ignored path="$PROJECT_DIR$/zuul-proxy/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -34,82 +68,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/turbine-service/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="127" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="127" />
+            <state relative-caret-position="247">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-proxy/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/controller/UserHystrixController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/Filter/HystrixRequestContextFilter.java">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/Filter/PreLogFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/turbine-service/src/main/java/com/beibeiyun/cloud/TurbineServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/beibeiyun/cloud/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/cloud/UserServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="47" selection-start-line="9" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-proxy/src/test/java/com/beibeiyun/cloud/ZuulProxyApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/config-server/src/test/java/com/beibeiyun/springcloud/ConfigServerApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -118,19 +113,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/beibeiyun/springcloud/ConfigServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1501">
-              <caret line="79" selection-start-line="79" selection-end-line="89" selection-end-column="27" />
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/hystrix-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="170">
+              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="84" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/mvnw.cmd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -163,14 +180,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-service/src/test/java/com/beibeiyun/cloud/UserServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/ribbon-service/src/test/java/com/beibeiyun/cloud/RibbonServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/beibeiyun/cloud/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-security-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-security-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/controller/UserController.java" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/ribbon-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ribbon-service/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-service/src/main/java/com/beibeiyun/cloud/RibbonServiceApplication.java" />
         <option value="$PROJECT_DIR$/ribbon-service/src/main/java/com/beibeiyun/controller/UserRibbonController.java" />
@@ -184,7 +196,6 @@
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/config/Config.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/cloud/HystrixServiceApplication.java" />
-        <option value="$PROJECT_DIR$/hystrix-service/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/Filter/HystrixRequestContextFilter.java" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/controller/UserHystrixController.java" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/service/impl/UserServiceImpl.java" />
@@ -197,7 +208,6 @@
         <option value="$PROJECT_DIR$/turbine-service/src/main/java/com/beibeiyun/cloud/TurbineServiceApplication.java" />
         <option value="$PROJECT_DIR$/turbine-service/src/test/java/com/beibeiyun/cloud/TurbineServiceApplicationTests.java" />
         <option value="$PROJECT_DIR$/turbine-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hystrix-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/demohystrix-dashboard/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign-service/src/main/java/com/beibeiyun/com/feignservice/FeignServiceApplication.java" />
         <option value="$PROJECT_DIR$/feign-service/src/test/java/com/beibeiyun/cloud/FeignServiceApplicationTests.java" />
@@ -214,6 +224,13 @@
         <option value="$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/cloud/ZuulProxyApplication.java" />
         <option value="$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/Filter/PreLogFilter.java" />
         <option value="$PROJECT_DIR$/zuul-proxy/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hystrix-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ribbon-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hystrix-service/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/java/com/beibeiyun/springcloud/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/test/java/com/beibeiyun/springcloud/ConfigServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -236,20 +253,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+          <item name="user-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="feign-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="feign-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="feign-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="user-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -257,8 +265,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="27" />
+    <option name="y" value="20" />
     <option name="width" value="1920" />
     <option name="height" value="1010" />
   </component>
@@ -278,95 +285,7 @@
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="Filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
@@ -550,7 +469,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-proxy/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/src/main/resources/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -559,19 +478,20 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\beiebiyun\zuul-proxy\src\main\resources" />
-      <recent name="E:\beiebiyun\feign-service\src\main\java\com\beibeiyun\domain" />
-      <recent name="E:\beiebiyun\feign-service\src\main\resources" />
-      <recent name="E:\beiebiyun\turbine-service\src\main\resources\templates" />
-      <recent name="E:\beiebiyun\demohystrix-dashboard\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\beiebiyun\config-server\src\main\resources" />
+      <recent name="E:\beiebiyun\turbine-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.beibeiyun.config" />
       <recent name="com.beibeiyun.Config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\beiebiyun\turbine-service\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\beiebiyun\config-server\src\main\resources\templates" />
+      <recent name="E:\beiebiyun\zuul-proxy\src\main\resources" />
+      <recent name="E:\beiebiyun\feign-service\src\main\java\com\beibeiyun\domain" />
+      <recent name="E:\beiebiyun\feign-service\src\main\resources" />
+      <recent name="E:\beiebiyun\turbine-service\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -590,9 +510,16 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.1704918" />
+    <option name="contentProportion" value="0.27448276" />
   </component>
   <component name="RunManager" selected="Spring Boot.FeignServiceApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beibeiyun.springcloud.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemohystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demohystrix-dashboard" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.beibeiyun.cloud.DemohystrixDashboardApplication" />
@@ -750,6 +677,7 @@
       <item itemvalue="Spring Boot.FeignServiceApplication" />
       <item itemvalue="Spring Boot.ZuulProxyApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication (1)" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -774,7 +702,7 @@
       <workItem from="1582682063764" duration="13623000" />
       <workItem from="1582873039444" duration="11979000" />
       <workItem from="1582944788348" duration="15080000" />
-      <workItem from="1583233340119" duration="1639000" />
+      <workItem from="1583233340119" duration="7928000" />
     </task>
     <task id="LOCAL-00001" summary="负载均衡的服务调用&#10;Spring Cloud Ribbon 是Spring Cloud Netflix 子项目的核心组件之一，主要给服务间调用及API网关转发提供负载均衡的功能，本文将对其用法进行详细介绍。">
       <created>1582467828289</created>
@@ -797,15 +725,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582945670912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.通过@FeignClient 注解实现了一个 Feign 客户端，其中的 value 为 user-service 表示这是对 user-service 服务的接口调用客户端。我们可以回想下 user-service 中的 UserController，只需将其改为接口，保留原来的 SpringMvc 注释即可。&#10;2.Feign 中的服务降级使用起来非常方便，只需要为 Feign 客户端定义的接口添加一个服务降级处理的实现类即可，下面我们为 UserService 接口添加一个服务降级实现类。">
+      <created>1583306407811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583306407811</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115835000" />
+    <option name="totallyTimeSpent" value="122124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="22" width="1536" height="808" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="16" width="1536" height="808" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27537212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -815,7 +749,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.6962111" visible="true" weight="0.14349112" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.6962111" visible="true" weight="0.52071005" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32988167" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49731904" weight="0.32840237" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -837,7 +771,7 @@
       <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.29431665" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32949933" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -867,85 +801,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ribbon-service/src/main/java/com/beibeiyun/RibbonConfig/RibbonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-service/src/main/java/com/beibeiyun/Config/Config.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/service/imp/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/service/imp/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/config/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../RepMaven/RepMaven/org/springframework/boot/spring-boot/2.1.6.RELEASE/spring-boot-2.1.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="158" selection-start-line="158" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-service/src/main/java/com/beibeiyun/cloud/RibbonServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-service/src/main/java/com/beibeiyun/controller/UserRibbonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
@@ -1000,24 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="84" column="27" selection-start-line="74" selection-start-column="4" selection-end-line="84" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/turbine-service/src/test/java/com/beibeiyun/cloud/TurbineServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1177,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/cloud/ZuulProxyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1249,7 +1083,7 @@
     <entry file="file://$PROJECT_DIR$/zuul-proxy/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1266,10 +1100,103 @@
     <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/Filter/HystrixRequestContextFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-proxy/src/main/java/com/beibeiyun/cloud/ZuulProxyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="66" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="84" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/beibeiyun/cloud/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/test/java/com/beibeiyun/springcloud/ConfigServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../RepMaven/RepMaven/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/OnBeanCondition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/beibeiyun/springcloud/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
