@@ -11,6 +11,11 @@ spring:
           username: beibeiyun
           password: Gg929517
           clone-on-start: true #开启启动时直接从git获取配置
+          search-paths: '{application}'
+  security: #配置用户名和密码
+    user:
+      name: beibeiyun
+      password: 123456
 eureka:
   client:
     service-url:
