@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5904c8f-4cfd-46cc-94a7-3aff27ce4161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/springcloud/ConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client/src/test/java/com/beibeiyun/springcloud/ConfigClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application-ampq1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application-amqp.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="341">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -67,19 +62,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application-ampq1.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="12" column="90" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="90" />
+            <state relative-caret-position="19">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application-amqp.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/springcloud/ConfigClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
@@ -92,36 +113,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/target/classes/application-amqp.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client1/src/main/java/com/beibeiyun/cloud/EurekaClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/springcloud/ConfigClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-76">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -129,33 +133,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/controller/ConfigClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="92">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#397#398#0" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application-replica1.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/beibeiyun/springcloud/ConfigServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,9 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/service/UserService.java" />
-        <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/config/Config.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/beibeiyun/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/cloud/HystrixServiceApplication.java" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/Filter/HystrixRequestContextFilter.java" />
         <option value="$PROJECT_DIR$/hystrix-service/src/main/java/com/beibeiyun/controller/UserHystrixController.java" />
@@ -235,12 +215,15 @@
         <option value="$PROJECT_DIR$/config-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/springcloud/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/config-server/target/classes/application-amqp.yml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application-amqp.yml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application-ampq1.yml" />
       </list>
     </option>
   </component>
@@ -268,15 +251,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="config-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="27" />
     <option name="width" value="1920" />
     <option name="height" value="1010" />
   </component>
@@ -298,25 +281,25 @@
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -325,54 +308,21 @@
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
               <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
               <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
               <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
               <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beibeiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
@@ -416,6 +366,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beiebiyun" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beiebiyun" type="b2602c69:ProjectViewProjectNode" />
@@ -593,7 +571,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-client/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -603,11 +581,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\beiebiyun\config-server\src\main\resources" />
       <recent name="E:\beiebiyun\config-client\src\main\resources" />
       <recent name="E:\beiebiyun\config-server\src\main\resources\templates" />
       <recent name="E:\beiebiyun\zuul-proxy\src\main\resources" />
       <recent name="E:\beiebiyun\feign-service\src\main\java\com\beibeiyun\domain" />
-      <recent name="E:\beiebiyun\feign-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.beibeiyun.config" />
@@ -636,7 +614,7 @@
     </option>
     <option name="contentProportion" value="0.27448276" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApplication (1)">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="ConfigClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.beibeiyun.springcloud.ConfigClientApplication" />
@@ -674,10 +652,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="New Folder">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beibeiyun.springcloud.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8904" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="New Folder">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.beibeiyun.springcloud.ConfigServerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8901" />
+        </param>
+      </additionalParameters>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -825,6 +825,7 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication (2)" />
       <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication-replica2" />
@@ -868,7 +869,7 @@
       <workItem from="1582873039444" duration="11979000" />
       <workItem from="1582944788348" duration="15080000" />
       <workItem from="1583233340119" duration="20977000" />
-      <workItem from="1584262468784" duration="11448000" />
+      <workItem from="1584262468784" duration="19156000" />
     </task>
     <task id="LOCAL-00001" summary="负载均衡的服务调用&#10;Spring Cloud Ribbon 是Spring Cloud Netflix 子项目的核心组件之一，主要给服务间调用及API网关转发提供负载均衡的功能，本文将对其用法进行详细介绍。">
       <created>1582467828289</created>
@@ -919,17 +920,23 @@
       <option name="project" value="LOCAL" />
       <updated>1584352726099</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="在微服务架构中，所有服务都从配置中心获取配置，配置中心一旦宕机，会发生很严重的问题，下面我们搭建一个双节点的配置中心集群来解决该问题。">
+      <created>1584353974146</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584353974146</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146621000" />
+    <option name="totallyTimeSpent" value="154329000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="16" width="1536" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="22" width="1536" height="808" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24154262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24154262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -937,7 +944,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.6962111" visible="true" weight="0.5133136" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.6962111" visible="true" weight="0.5133136" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32988167" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49731904" weight="0.32840237" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -974,7 +981,8 @@
     <MESSAGE value="config-server模块来演示Spring Cloud Config 作为配置中心的功能。" />
     <MESSAGE value="从config-server获取配置" />
     <MESSAGE value="config-client模块来从config-server获取配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="config-client模块来从config-server获取配置" />
+    <MESSAGE value="在微服务架构中，所有服务都从配置中心获取配置，配置中心一旦宕机，会发生很严重的问题，下面我们搭建一个双节点的配置中心集群来解决该问题。" />
+    <option name="LAST_COMMIT_MESSAGE" value="在微服务架构中，所有服务都从配置中心获取配置，配置中心一旦宕机，会发生很严重的问题，下面我们搭建一个双节点的配置中心集群来解决该问题。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -992,33 +1000,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/feign-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/beibeiyun/Config/FeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/beibeiyun/cloud/FeignServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/com/beibeiyun/service/Impl/UserFallbackService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1190,9 +1171,6 @@
     <entry file="file://$PROJECT_DIR$/config-server/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../RepMaven/RepMaven/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE.jar!/org/springframework/boot/autoconfigure/condition/OnBeanCondition.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
@@ -1329,29 +1307,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/springcloud/ConfigClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="167">
+          <caret line="12" column="90" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/target/classes/application-amqp.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="143">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application-amqp.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application-ampq1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="92">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#397#398#0" expanded="true" />
@@ -1360,24 +1357,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/beibeiyun/springcloud/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="12" column="90" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="90" />
+        <state relative-caret-position="341">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="162">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>

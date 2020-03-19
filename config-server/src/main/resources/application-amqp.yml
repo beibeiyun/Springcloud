@@ -1,5 +1,5 @@
 server:
-  port: 8901
+  port: 8904
 spring:
   application:
     name: config-server
@@ -12,15 +12,15 @@ spring:
           password: Gg929517
           clone-on-start: true #开启启动时直接从git获取配置
           search-paths: '{application}'
-  security: #配置用户名和密码
-    user:
-      name: beibeiyun
-      password: 123456
   rabbitmq: #rabbitmq相关配置
     host: localhost
     port: 5672
     username: guest
     password: guest
+  security: #配置用户名和密码
+    user:
+      name: beibeiyun
+      password: 123456
 eureka:
   client:
     service-url:
